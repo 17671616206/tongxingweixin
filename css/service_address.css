@@ -1,0 +1,119 @@
+body{
+    background-color: #F5F5F5;
+    font-family: "微软雅黑";
+    width: 100%;
+    overflow-x: hidden;
+}
+.header{
+    background-color: white;
+    color: #252525;
+    box-shadow: 0px 0px 15px #ccc;
+}
+.fanhui>img{
+    width: 100%;
+    height: 100%;
+}
+/*导航部分*/
+
+.sbanner{
+    background-color: white;
+    color:#333;
+}
+.address{
+    color: #999;
+    margin-right: 20px;
+}
+.icon-arrowright{
+    color: #999;
+}
+.sfont1,.icon-jiahao{
+    color: #288CCA;
+}
+.serviceadd{
+    color: #333333;
+}
+.sfont2{
+    font-weight: bold;
+}
+
+
+@media all and (min-width: 769px){
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 20px;}
+    .searchimg{width: 22px;height: 22px;}
+    .sbanner{margin-top: 10px;font-size: 16px;}
+    .sfont1{font-size: 12px;margin-right: 6px;width: 55px;}
+    .address{margin-top: 5px;}
+    .serviceadd{padding: 0px 12px;height: 45px;}
+    .icon-jiahao{margin-right: 10px;}
+    .smenu{
+        padding:7px 12px;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    .iconfont{font-size: 16px;}
+}
+@media all and (max-width: 768px){
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 20px;}
+    .searchimg{width: 22px;height: 22px;}
+    .sbanner{margin-top: 10px;font-size: 16px;}
+    .sfont1{font-size: 12px;margin-right: 6px;width: 55px;}
+    .address{margin-top: 5px;}
+    .serviceadd{padding: 0px 12px;height: 45px;}
+    .icon-jiahao{margin-right: 10px;}
+    .smenu{
+        padding:7px 12px;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    .iconfont{font-size: 16px;}
+}
+@media all and (max-width: 414px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 20px;}
+    .searchimg{width: 22px;height: 22px;}
+    .sbanner{margin-top: 10px;font-size: 16px;}
+    .sfont1{font-size: 12px;margin-right: 6px;width: 55px;}
+    .address{margin-top: 5px;}
+    .serviceadd{padding: 0px 12px;height: 45px;}
+    .icon-jiahao{margin-right: 10px;}
+    .smenu{
+        padding:7px 12px;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    .iconfont{font-size: 16px;}
+}
+@media all and (max-width: 380px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 19px;}
+    .searchimg{width: 20px;height: 20px;}
+    .sbanner{margin-top: 10px;font-size: 15px;}
+    .sfont1{font-size: 12px;margin-right: 6px;width: 50px;}
+    .address{margin-top: 5px;}
+    .serviceadd{padding: 0px 12px;height: 40px;}
+    .icon-jiahao{margin-right: 10px;}
+    .smenu{
+        padding:7px 12px;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    .iconfont{font-size: 15px;}
+}
+@media all and (max-width: 320px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 17px;}
+    .searchimg{width: 15px;height: 15px;}
+    .sbanner{margin-top: 7px;font-size: 14px;}
+    .sfont1{font-size: 11px;margin-right: 3px;width: 50px;}
+    .address{margin-top: 5px;}
+    .serviceadd{padding: 0px 12px;height: 35px;}
+    .icon-jiahao{margin-right: 7px;}
+    .smenu{
+        padding:5px 10px;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    .iconfont{font-size: 14px;}
+}

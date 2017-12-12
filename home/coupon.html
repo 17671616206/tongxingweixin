@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<title>优惠券</title>
+		<link rel="stylesheet" href="../font/demo.css">
+    	<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/fontsize.css"/>
+	    <link rel="stylesheet" href="../css/coupon.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/swiper.min.css"/>
+	    <script src="../js/jquery-3.2.1.min.js"></script>
+	    <script src="../js/coupon.js"></script>
+	    <script src="../js/swiper.min.js"></script>
+	    <style type="text/css">
+	    	@media all and (min-width: 769px) {
+	    		.iconfont{font-size: 28px;}
+	    	}
+	    	@media all and (max-width: 768px) {
+	    		.iconfont{font-size: 28px;}
+	    	}
+	    	@media all and (max-width: 414px) {
+	    		.iconfont{font-size: 16px;}
+	    	}
+	    	@media all and (max-width: 380px) {
+	    		.iconfont{font-size: 14px;}
+	    	}
+	    	@media all and (max-width: 320px) {
+	    		.iconfont{font-size: 12px;}
+	    	}
+	    </style>
+	</head>
+	<body>
+		<ul class="header flex_items">
+			<li class="flex_center headerone heactive">
+				平台优惠券				
+			</li>
+			<li class="flex_center headertwo">
+				抽奖
+			</li>
+			<li class="flex_center headertwo">
+				商家优惠券
+			</li>
+		</ul>
+		<div>
+			<!--———————————如果为空，就显示空的图片—————————————-->
+			<!--<div class="flex_center kong">-->
+				<!--<img src="../images/wushuju.png" alt="" />-->
+			<!--</div>-->
+
+			<!--————————平台优惠券部分开始——————————-->
+			<div class="coupon coubox" style="display: block;">
+				<!---->
+				<a href="../views/coupon-detial.html">
+					<div class="couponlist">
+						<a class="cleft cgreen" href="../views/coupon-detial.html">
+							<p>¥<span>150</span></p>
+							<p>优惠券</p>
+						</a>
+						<div class="cright">
+							<p>公司注册<span class="cunnum">70/100</span></p>
+							<div class="flex_between mancunpon">
+								<div>满500可使用</div>
+								<div class="lingqu btngreen">立即领取</div>
+							</div>
+							<p>即当天领取生效&nbsp;&nbsp;2017-11-12到期</p>
+						</div>
+					</div>
+				</a>
+				<!---->
+				<a href="../views/coupon-detial.html">
+					<div class="couponlist">
+						<a class="cleft cyellow" href="../views/coupon-detial.html">
+							<p>¥<span>150</span></p>
+							<p>优惠券</p>
+						</a>
+						<div class="cright">
+							<p>代理记账<span class="cunnum">70/100</span></p>
+							<div class="flex_between mancunpon">
+								<div>满500可使用</div>
+								<div class="lingqu btnyellow">立即领取</div>
+							</div>
+							<p>即当天领取生效&nbsp;&nbsp;2017-11-12到期</p>
+						</div>
+					</div>
+				</a>
+				<!---->
+				<div class="couponlist">
+					<a href="../views/coupon-detial.html" class="cleft cred">
+						<p>¥<span>150</span></p>
+						<p>优惠券</p>
+					</a>
+					<div class="cright">
+						<p>法律顾问<span class="cunnum">70/100</span></p>
+						<div class="flex_between mancunpon">
+							<div>满500可使用</div>
+							<div class="lingqu btnred">立即领取</div>
+						</div>
+						<p>即当天领取生效&nbsp;&nbsp;2017-11-12到期</p>
+					</div>
+				</div>
+			</div>
+			<!--————————平台优惠券部分结束——————————-->
+
+			<!--————————抽奖版块部分开始——————————-->
+			<div class="coubox">
+				<div class="turnplate_box">
+					<div class="zhuan">
+						<canvas id="myCanvas" width="300px" height="300px"></canvas>
+						<canvas id="myCanvas01" width="200px" height="200px"></canvas>
+						<canvas id="myCanvas03" width="200px" height="200px"></canvas>
+						<canvas id="myCanvas02" width="150px" height="150px"></canvas>
+						<button id="tupBtn" class="turnplatw_btn"></button>
+					</div>
+				</div>
+				<div class="remarks">
+					<p><span class="remarks_yuan"></span>一笔订单仅限于使用一张店铺优惠券，如果卖家产生多笔订单，且均符合使用要求时，则可以分别使用。</p>
+					<p><span class="remarks_yuan"></span>一张优惠券仅限于单笔订单消费抵用，不可拆分，过期即作废。</p>
+					<p><span class="remarks_yuan"></span>最终解释权归同兴所有</p>
+				</div>
+			</div>
+			<!--————————抽奖版块部分结束——————————-->
+
+			<!--————————商家优惠券部分开始——————————-->
+			<div class="coupon coubox">
+
+				<div class="couponlist">
+					<a class="cleft cblue" href="../views/coupon-detial.html">
+						<p>¥<span>150</span></p>
+						<p>优惠券</p>
+					</a>
+					<div class="cright">
+						<p>法律顾问<span class="cunnum">70/100</span></p>
+						<div class="flex_between mancunpon">
+							<div>满500可使用</div>
+							<div class="lingqu btnblue">立即领取</div>
+						</div>
+						<p>即当天领取生效&nbsp;&nbsp;2017-11-12到期</p>
+					</div>
+				</div>
+
+			</div>
+			<!--————————商家优惠券部分结束——————————-->
+		</div>
+		<br /><br /><br /><br />
+		<div id="footer"></div>
+		
+	<!-- 更改系统默认弹窗 -->
+	<script type="text/javascript">
+		window.alert = function(str)
+		{
+			var shield = document.createElement("DIV");
+			shield.id = "shield";
+			shield.style.position = "absolute";
+			shield.style.left = "50%";
+			shield.style.top = "50%";
+			shield.style.width = "280px";
+			shield.style.height = "150px";
+			shield.style.marginLeft = "-140px";
+			shield.style.marginTop = "-110px";
+			shield.style.zIndex = "25";
+			var alertFram = document.createElement("DIV");
+			alertFram.id="alertFram";
+			alertFram.style.position = "absolute";
+			alertFram.style.width = "280px";
+			alertFram.style.height = "150px";
+			alertFram.style.left = "50%";
+			alertFram.style.top = "50%";
+			alertFram.style.marginLeft = "-140px";
+			alertFram.style.marginTop = "-110px";
+			alertFram.style.textAlign = "center";
+			alertFram.style.lineHeight = "150px";
+			alertFram.style.zIndex = "300";
+			strHtml = "<ul style=\"list-style:none;margin:0px;padding:0px;width:100%\">\n";
+//			strHtml += " <li style=\"background:#626262;text-align:left;padding-left:20px;font-size:14px;font-weight:bold;height:25px;line-height:25px;border:1px solid #F9CADE;color:white\">[中奖提醒]</li>\n";
+			strHtml += " <li style=\"background:#fff;text-align:center;line-height:30px;padding-top:30px;font-size:18px;height:90px;border-left:1px solid #ddd;border-right:1px solid #F9CADE;color:#DCC722\"><p style=\'color:#333;font-size: 18px;'>恭喜您</p><p style=\'color:#999;font-size: 18px;'>"+str+"</p></li>\n";
+			strHtml += " <li style=\"background:#fff;text-align:center;font-weight:bold;height:40px;line-height:40px; border:1px solid #ddd;\"><input type=\"button\" value=\"确 定\" onclick=\"doOk()\" style=\"width:80px;height:35px;background:#fff;color:#00c200;border:1px solid white;font-weight: bold;font-size:14px;line-height:35px;outline:none;margin-top: 4px\"/></li>\n";
+			strHtml += "</ul>\n";
+			alertFram.innerHTML = strHtml;
+			document.body.appendChild(alertFram);
+			document.body.appendChild(shield);
+			this.doOk = function(){
+				alertFram.style.display = "none";
+				shield.style.display = "none";
+			}
+			alertFram.focus();
+			document.body.onselectstart = function(){return false;};
+		}
+	</script>
+	</body>
+</html>

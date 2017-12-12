@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<title>同兴>登录</title>		
+		<link rel="stylesheet" href="../css/fontsize.css"/>
+	    <link rel="stylesheet" href="../css/login.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/swiper.min.css"/>
+	    <script src="../js/jquery-3.2.1.min.js"></script>
+	    <script src="../js/advertisement.js"></script>
+	    <script src="../js/swiper.min.js"></script>
+	    <style type="text/css">
+	    	.swiper-pagination-bullet{background: #288cca;opacity: 1;}
+	    	.swiper-container-horizontal>.swiper-pagination-bullets{bottom: 5%;}
+	    	@media all and (min-width: 769px){
+	    		.swiper-pagination-bullet{width: 16px;height: 16px;}
+				.swiper-pagination-bullet-active{width: 50px;height:16px;border-radius: 50px;}
+			}
+			@media all and (max-width: 768px){
+				.swiper-pagination-bullet{width: 16px;height: 16px;}
+				.swiper-pagination-bullet-active{width: 50px;height:16px;border-radius: 50px;}
+			}
+			@media all and (max-width: 414px) {
+				.swiper-pagination-bullet{width: 8px;height: 8px;}
+				.swiper-pagination-bullet-active{width: 25px;height:8px;border-radius: 50px;}
+			}
+			@media all and (max-width: 380px) {
+				.swiper-pagination-bullet{width: 8px;height: 8px;}
+				.swiper-pagination-bullet-active{width: 25px;height:8px;border-radius: 50px;}
+			}
+			@media all and (max-width: 320px) {
+				.swiper-pagination-bullet{width: 8px;height: 8px;}
+				.swiper-pagination-bullet-active{width: 23px;height:8px;border-radius: 50px;}
+			}
+	    </style>
+	</head>
+	<body>
+		<div class="swiper-container">
+			<a href="../views/login.html" class="guo flex_center"><div>跳过</div></a>
+	        <div class="swiper-wrapper">	        	
+	            <div class="swiper-slide">
+	            	<p class="adver">创业好伙伴</p>
+	            	<p class="adver1">一站式企业服务平台</p>
+	            	<img src="../images/diannao.png"/>
+	            	<p class="adver2">一站式服务</p>
+	            	<p class="adver3">创新服务优秀机构&nbsp;&nbsp;10+企业的选择</p>
+	            </div>
+	            <div class="swiper-slide">
+	            	<p class="adver">专注微小企业</p>
+	            	<p class="adver1">七年企业服务心得</p>
+	            	<img src="../images/man.png"/>
+	            	<p class="adver2">一站式服务</p>
+	            	<p class="adver3">创新服务优秀机构&nbsp;&nbsp;10+企业的选择</p>
+	            </div>
+	            <div class="swiper-slide loginback1">
+	            	<div class="tiyantext flex_center">
+	            		<div class="tiyantext1">创业好伙伴一站式企业服务平台</div>
+	            		<div class="tiyantext2">
+	            			<span class="tiyancolor">此刻</span>
+	            			<span>我们一起改变</span>
+	            		</div>
+	            	</div>
+					<a href="../views/login.html"><button class="loginliji">立即体验</button></a>
+	            </div>
+	        </div>
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    
+	    <script>
+		    var swiper = new Swiper('.swiper-container', {
+		        pagination: '.swiper-pagination',
+		        paginationClickable: true
+		    });
+	    </script>
+	</body>
+</html>

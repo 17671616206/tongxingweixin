@@ -1,0 +1,97 @@
+body{
+    background-color: #F5F5F5;
+    font-family: "微软雅黑";
+    width: 100%;
+    overflow-x: hidden;
+}
+.header{
+    background-color: white;
+    color: #252525;
+    box-shadow: 0px 0px 15px #ccc;
+}
+.fanhui>img{
+    width: 100%;
+    height: 100%;
+}
+/*导航部分*/
+.codeback{
+    width: 100%;
+}
+.codenum{
+    text-align: center;
+    font-weight: bold;
+    color: #404040;
+}
+.zhuce{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #288CCA;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mycode{
+    color: #288cca;
+    text-align: center;
+}
+
+@media all and (min-width: 769px){
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 18px;}
+    .searchimg{width: 22px;height: 22px;}
+    .zhuce{margin-top: 55px;}
+    .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+    .codebox{padding: 60px 12px 50px;}
+    .codenum{font-size: 40px;}
+    .mycode{font-size: 18px;margin-top: 20px;}
+
+}
+@media all and (max-width: 768px){
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 18px;}
+    .searchimg{width: 22px;height: 22px;}
+    .zhuce{margin-top: 55px;}
+    .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+    .codebox{padding: 60px 12px 50px;}
+    .codenum{font-size: 40px;}
+    .mycode{font-size: 18px;margin-top: 20px;}
+
+}
+@media all and (max-width: 414px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 18px;}
+    .searchimg{width: 22px;height: 22px;}
+    .zhuce{margin-top: 55px;}
+    .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+    .codebox{padding: 60px 12px 50px;}
+    .codenum{font-size: 40px;}
+    .mycode{font-size: 18px;margin-top: 20px;}
+
+}
+@media all and (max-width: 380px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 17px;}
+    .searchimg{width: 20px;height: 20px;}
+    .zhuce{margin-top: 55px;}
+    .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+    .codebox{padding: 60px 12px 50px;}
+    .codenum{font-size: 40px;}
+    .mycode{font-size: 18px;margin-top: 20px;}
+
+
+}
+@media all and (max-width: 320px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 16px;}
+    .searchimg{width: 15px;height: 15px;}
+    .zhuce{margin-top: 50px;}
+    .zhuce{width: 90%;height: 40px;font-size: 16px;border-radius: 5px;}
+    .codebox{padding: 50px 8px 40px;}
+    .codenum{font-size: 38px;}
+    .mycode{font-size: 16px;margin-top: 20px;}
+}

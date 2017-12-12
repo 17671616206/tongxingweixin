@@ -1,0 +1,266 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+}
+
+@media all and (min-width: 769px){
+    .header{height: 189px;}
+    .header_search{height: 35px;margin: 140px auto 0px;}
+    .header_inp{height: 90%;font-size: 15px;}
+    .header_search>span{font-size: 22px;}
+    .section{padding-top: 5px;padding-bottom: 20px;}
+    .section>a>li{height: 65px;font-size: 14px;margin-top: 20px;}
+    .secimg{width: 35px;height: 35px;}
+    .home_nav{padding: 10px;margin: 8px 0px;}
+    .home_fuwu{height: 23px;padding-left: 10px;font-size: 16px;line-height: 23px;}
+    .home_fuwuxian{width: 4px;height: 20px;margin-top:2px;margin-right: 8px;}
+    .swiper-container {width: 100%;height: 61px;margin: 15px auto 7px;}
+    .swiper-slide{margin-right: 15px;}
+    .banner{padding: 10px;}
+    .banner_list{margin-top: 1%;}
+    .banner_list>a{
+        width: 43%;
+        padding: 0px 10px;
+        margin-top: 7px;
+    }
+    .banner_list>a>li{
+        height: 75px;
+        font-size: 15px;
+    }
+    .banner_back{width: 52px;height: 52px;margin-top: 10%;}
+    .bannermb{font-size: 12px;}
+    .bancolor{margin-top: 5px;}
+    .home_foot{font-size: 14px;margin-top: 15px;margin-bottom: 0px;}
+}
+@media all and (max-width: 768px){
+    .header{height: 189px;}
+    .header_search{height: 35px;margin: 140px auto 0px;}
+    .header_inp{height: 90%;font-size: 15px;}
+    .header_search>span{font-size: 22px;}
+    .section{padding-top: 5px;padding-bottom: 20px;}
+    .section>a>li{height: 65px;font-size: 14px;margin-top: 20px;}
+    .secimg{width: 35px;height: 35px;}
+    .home_nav{padding: 10px;margin: 8px 0px;}
+    .home_fuwu{height: 23px;padding-left: 10px;font-size: 16px;line-height: 23px;}
+    .home_fuwuxian{width: 4px;height: 20px;margin-top:2px;margin-right: 8px;}
+    .swiper-container {width: 100%;height: 61px;margin: 15px auto 7px;}
+    .swiper-slide{margin-right: 15px;}
+    .banner{padding: 10px;}
+    .banner_list{margin-top: 1%;}
+    .banner_list>a{
+        width: 43%;
+        padding: 0px 10px;
+        margin-top: 7px;
+    }
+    .banner_list>a>li{
+        height: 75px;
+        font-size: 15px;
+    }
+    .banner_back{width: 52px;height: 52px;margin-top: 10%;}
+    .bannermb{font-size: 12px;}
+    .bancolor{margin-top: 5px;}
+    .home_foot{font-size: 14px;margin-top: 15px;margin-bottom: 0px;}
+}
+@media all and (max-width: 414px) {
+    .header{height: 189px;}
+    .header_search{height: 35px;margin: 140px auto 0px;}
+    .header_inp{height: 90%;font-size: 15px;}
+    .header_search>span{font-size: 22px;}
+    .section{padding-top: 5px;padding-bottom: 20px;}
+    .section>a>li{height: 65px;font-size: 14px;margin-top: 20px;}
+    .secimg{width: 35px;height: 35px;}
+    .home_nav{padding: 10px;margin: 8px 0px;}
+    .home_fuwu{height: 23px;padding-left: 10px;font-size: 16px;line-height: 23px;}
+    .home_fuwuxian{width: 4px;height: 20px;margin-top:2px;margin-right: 8px;}
+    .swiper-container {width: 100%;height: 61px;margin: 15px auto 7px;}
+    .swiper-slide{margin-right: 15px;}
+    .banner{padding: 10px;}
+    .banner_list{margin-top: 1%;}
+    .banner_list>a{
+        width: 43%;
+        padding: 0px 10px;
+        margin-top: 7px;
+    }
+    .banner_list>a>li{
+        height: 75px;
+        font-size: 15px;
+    }
+    .banner_back{width: 52px;height: 52px;margin-top: 10%;}
+    .bannermb{font-size: 12px;}
+    .bancolor{margin-top: 5px;}
+	.home_foot{font-size: 14px;margin-top: 15px;margin-bottom: 0px;}
+}
+@media all and (max-width: 380px) {
+    .header{height: 171px;}
+    .header_search{height: 30px;margin: 130px auto 0px;}
+    .header_inp{height: 80%;font-size: 14px;}
+    .header_search>span{font-size: 20px;}
+    .section{padding-top: 0px;padding-bottom: 20px;}
+    .section>a>li{height: 60px;font-size: 13px;margin-top: 20px;}
+    .secimg{width: 30px;height: 30px;}
+    .home_nav{padding: 10px;margin: 8px 0px;}
+    .home_fuwu{height: 23px;padding-left: 10px;font-size: 16px;line-height: 23px;}
+    .home_fuwuxian{width: 4px;height: 20px;margin-top:2px;margin-right: 8px;}
+    .swiper-container {width: 100%;height: 61px;margin: 15px auto 5px;}
+    .swiper-slide{margin-right: 10px;}
+    .banner{padding: 10px;}
+    .banner_list{margin-top: 1%;}
+    .banner_list>a{
+        width: 42%;
+        padding: 0px 10px;
+        margin-top: 7px;
+    }
+    .banner_list>a>li{
+		height: 75px;
+        font-size: 15px;
+	}
+    .banner_back{width: 52px;height: 52px;margin-top: 10%;}
+    .bannermb{font-size: 12px;}
+    .bancolor{margin-top: 5px;}
+	.home_foot{font-size: 14px;margin-top: 15px;margin-bottom: 0px;}
+}
+@media all and (max-width: 320px) {
+    .header{height: 146px;}
+    .header_search{height: 25px;margin: 110px auto 0px;}
+    .header_inp{height: 80%;font-size: 12px;}
+    .header_search>span{font-size: 18px;}
+    .section{padding-top: 10px;padding-bottom: 10px;}
+    .section>a>li{height: 54px;font-size: 12px;margin-top: 0px;}
+    .secimg{width: 25px;height: 25px;}
+    .home_nav{padding: 8px;margin: 5px 0px;}
+    .home_fuwu{height: 20px;padding-left: 10px;line-height: 20px;font-size: 14px;}
+    .home_fuwuxian{width: 5px;height: 19px;margin-top:1px;margin-right: 5px;}
+    .swiper-container {width: 100%;height: 61px;margin: 10px auto 5px;}
+    .swiper-slide{margin-right: 7px;}
+    .banner{padding: 5px;}
+    .banner_list{margin-top: 3%;}
+    .banner_list>a{
+        width: 41%;
+        padding: 0px 10px;
+        margin-top: 7px;
+    }
+    .banner_list>a>li{
+        height: 75px;
+        font-size: 15px;
+    }
+    .banner_back{width: 52px;height: 52px;margin-top: 10%;}
+    .bannermb{font-size: 12px;}
+    .bancolor{margin-top: 5px;}
+
+	.home_foot{font-size: 12px;margin-top: 10px;margin-bottom: 0px;}
+}
+/*—————————————媒体查询样式结束—————————————*/
+.home{color: #288cca;}
+.fenlei,.search,.youhui,.mine{color: #959595;}
+.header{
+    width: 100%;
+    background: url("../images/shouye-banner.png") no-repeat;
+    background-size: cover;
+    padding: 1px 0px;
+}
+.header_search{
+	width: 76%;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 4px;
+	padding-left: 4%;
+}
+.header_search>span{font-weight: bold;color: #959595;vertical-align: middle}
+.header_inp{	
+	border: none;
+	outline: none;
+	width: 80%;
+	line-height: 25px;
+	color: #333;
+	background-color: rgba(255,255,255,0);
+	margin-left: 2%;
+}
+.section{
+	width: 98%;
+	height: auto;
+	padding-left: 2%;
+	background-color: white;
+}
+.section>a{
+    width: 23%;
+    display: inline-block;
+}
+.section>a>li{
+	width: 100%;
+	color: #969696;	
+	padding-top: 10px;
+	text-align: center;
+}
+/*——————————————————银行轮播部分开始————————————————————*/
+.home_nav{
+	background-color: white;
+}
+.home_fuwu{
+	width: 90%;
+	color: #242424;
+	font-weight: bold;
+}
+.home_fuwu>div{float: left;}
+.home_fuwuxian{
+	background-color: #288CCA;
+}
+
+.swiper-slide {
+    text-align: center;
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border: 1px solid #EEEEEE;
+    height: 96%;
+}
+.swiper-slide:nth-child(2n) {
+    width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 20%;
+}
+.swiper-slide>img{width: 100%;height: 100%;}
+/*——————————————————银行轮播部分结束————————————————————*/
+
+/*——————————————————广告部分开始————————————————————*/
+.banner{
+	background-color: white;
+}
+.banner_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner_list>a:nth-child(odd){
+	margin-right: 2%;
+}
+.banner_list>a{
+    display: inline-block;
+    border:1px solid #eee;
+}
+.banner_list>a>li{
+    width: 100%;
+	position: relative;
+	overflow: hidden;
+    font-weight: bold;
+    color: #626262;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bancolor{
+    color: #ff4444;
+    margin-bottom: 10%;
+}
+.banner_back{margin-top: 10%;}
+/*——————————————————广告部分结束————————————————————*/
+.home_foot{color: #999;text-align: center;}

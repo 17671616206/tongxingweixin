@@ -1,0 +1,74 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+}
+.header{background-color: white;color: #252525;}
+/*导航部分*/
+.sulogin,.header_title{font-weight: bold;}
+.suyes>span{color: #288CCA}
+.sulogin{
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #288CCA;
+}
+.fanhui>img{
+	width: 100%;
+	height: 100%;
+}
+@media all and (min-width: 769px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.suyes>span{font-size: 146px;}
+	.suyes{margin-top: 50px;}
+	.sugood{font-size: 21px;}
+	.sulogin,.sugood{margin-top: 64px;}
+	.sulogin{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+}
+@media all and (max-width: 768px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.suyes>span{font-size: 146px;}
+	.suyes{margin-top: 50px;}
+	.sugood{font-size: 21px;}
+	.sulogin,.sugood{margin-top: 64px;}
+	.sulogin{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	
+}
+@media all and (max-width: 414px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.suyes>span{font-size: 146px;}
+	.suyes{margin-top: 50px;}
+	.sugood{font-size: 21px;}
+	.sulogin,.sugood{margin-top: 64px;}
+	.sulogin{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+}
+@media all and (max-width: 380px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 19px;}
+	.searchimg{width: 20px;height: 20px;}	
+	.suyes>span{font-size: 146px;}
+	.suyes{margin-top: 50px;}
+	.sugood{font-size: 21px;}
+	.sulogin,.sugood{margin-top: 64px;}
+	.sulogin{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+}
+@media all and (max-width: 320px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 17px;}
+	.searchimg{width: 15px;height: 15px;}
+	.suyes>span{font-size: 140px;}
+	.suyes{margin-top: 12px;}
+	.sugood{font-size: 21px;}
+	.sulogin,.sugood{margin-top: 60px;}
+	.sulogin{width: 90%;height: 40px;font-size: 16px;border-radius: 5px;}
+}

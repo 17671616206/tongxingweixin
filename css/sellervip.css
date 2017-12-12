@@ -1,0 +1,131 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+}
+.header{background-color: white;color: #252525;}
+/*导航部分*/
+.zhuce,.header_title{font-weight: bold;}
+.banner{background-color: white;color: #333;}
+.sellinp2,.sellinp{
+	border-top:none;
+	border-right: none;
+	border-left: none;
+	outline: none;
+	border-radius: 0px;
+	border-bottom: 1px solid #d8d8d8;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #C6C6C6;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #C6C6C6;
+}
+
+input:-ms-input-placeholder{
+	color: #C6C6C6;
+}
+
+input::-webkit-input-placeholder{
+	color: #C6C6C6;
+}
+
+.fanhui>img{
+	width: 100%;
+	height: 100%;
+}
+.zhuce{
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #288CCA;
+	margin-left: auto;
+	margin-right: auto;
+}
+.code{
+	border: 2px solid #288CCA;
+	color: #288CCA;
+	border-radius: 4px;
+	background-color: white;
+}
+.sellinp2{width: 60%;}
+.sellzhi{color: #757575;}
+.selluser{color: #333;}
+.sellbox_user{color: #999;}
+
+
+@media all and (min-width: 769px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.banner{margin-top: 9px;padding: 0px 20px 10px;}
+	.sellinp{height: 45px;font-size: 16px;padding-left: 15px;width: 95%;margin-top: 10px;}
+	.zhuce{margin-top: 30px;}
+	.zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	.sellinp2{height: 45px;font-size: 16px;padding-left: 15px;margin-top: 10px;}
+	.code{width: 86px;height: 28px;margin-left: 20px;font-size: 13px;}
+	.sellimg{width: 95px;height: 65px;margin-left: 20px;}
+	.sellbox{margin-top: 10px;font-size: 16px;}
+	.sellbox_user{font-size: 14px;padding: 15px 15px;}
+}
+@media all and (max-width: 768px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.banner{margin-top: 9px;padding: 0px 20px 10px;}
+	.sellinp{height: 45px;font-size: 16px;padding-left: 15px;width: 95%;margin-top: 10px;}
+	.zhuce{margin-top: 30px;}
+	.zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	.sellinp2{height: 45px;font-size: 16px;padding-left: 15px;margin-top: 10px;}
+	.code{width: 86px;height: 28px;margin-left: 20px;font-size: 13px;}
+	.sellimg{width: 95px;height: 65px;margin-left: 20px;}
+	.sellbox{margin-top: 10px;font-size: 16px;}
+	.sellbox_user{font-size: 14px;padding: 15px 15px;}
+}
+@media all and (max-width: 414px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.banner{margin-top: 9px;padding: 0px 20px 10px;}
+	.sellinp{height: 45px;font-size: 16px;padding-left: 15px;width: 95%;margin-top: 10px;}
+	.zhuce{margin-top: 30px;}
+	.zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	.sellinp2{height: 45px;font-size: 16px;padding-left: 15px;margin-top: 10px;}
+	.code{width: 86px;height: 28px;margin-left: 20px;font-size: 13px;}
+	.sellimg{width: 95px;height: 65px;margin-left: 20px;}
+	.sellbox{margin-top: 10px;font-size: 16px;}
+	.sellbox_user{font-size: 14px;padding: 15px 15px;}
+}
+@media all and (max-width: 380px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 19px;}
+	.searchimg{width: 20px;height: 20px;}	
+	.banner{margin-top: 9px;padding: 0px 20px 10px;}
+	.sellinp{height: 45px;font-size: 16px;padding-left: 15px;width: 95%;margin-top: 10px;}
+	.zhuce{margin-top: 30px;}
+	.zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	.sellinp2{height: 45px;font-size: 16px;padding-left: 15px;margin-top: 10px;}
+	.code{width: 86px;height: 28px;margin-left: 20px;font-size: 13px;}
+	.sellimg{width: 95px;height: 65px;margin-left: 20px;}
+	.sellbox{margin-top: 10px;font-size: 16px;}
+	.sellbox_user{font-size: 14px;padding: 15px 15px;}
+}
+@media all and (max-width: 320px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 17px;}
+	.searchimg{width: 15px;height: 15px;}
+	.banner{margin-top: 9px;padding: 0px 20px 10px;}
+	.sellinp{height: 45px;font-size: 16px;padding-left: 15px;width: 95%;margin-top: 10px;}
+	.zhuce{margin-top: 35px;}
+	.zhuce{width: 90%;height: 40px;font-size: 16px;border-radius: 5px;}
+	.sellinp2{height: 45px;font-size: 16px;padding-left: 15px;margin-top: 10px;}
+	.code{width: 86px;height: 28px;margin-left: 20px;font-size: 13px;}
+	.sellimg{width: 95px;height: 65px;margin-left: 20px;}
+	.sellbox{margin-top: 10px;font-size: 16px;}
+	.sellbox_user{font-size: 14px;padding: 15px 10px;}
+}

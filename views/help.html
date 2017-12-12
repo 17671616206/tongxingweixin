@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<title>同兴>帮助中心</title>
+		<link rel="stylesheet" href="../font/demo.css">
+    	<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/fontsize.css"/>
+	    <link rel="stylesheet" href="../css/help.css"/>
+	    <script src="../js/jquery-3.2.1.min.js"></script>
+	    <script src="../js/help.js"></script>
+	</head>
+	<body>
+		<div class="flex_between header">
+			<a class="fanhui" href="javascript:history.back(-1)">
+				<img src="../images/fanhui@2x.png" alt="" />
+			</a>
+			<div class="header_title">帮助中心</div>
+			<div class="searchimg"></div>
+		</div>
+
+		<div class="helpbox">
+			<a href="aboutwe.html">
+				<div class="setting flex_between">
+					<div>关于我们</div>
+					<span class="setadd icon iconfont icon-arrowright"></span>
+				</div>
+			</a>
+			<a href="javascript:void(0);">
+				<div class="setting flex_between">
+					<div>常见问题</div>
+					<span class="setadd icon iconfont icon-arrowright"></span>
+				</div>
+			</a>
+			<a href="javascript:void(0);">
+				<div class="setting flex_between">
+					<div>商家服务</div>
+					<span class="setadd icon iconfont icon-arrowright"></span>
+				</div>
+			</a>
+		</div>
+
+
+		<script type="text/javascript">
+
+			var calendar = new LCalendar();
+			calendar.init({
+				'trigger': '#start_date', //标签id
+				'type': 'date', //date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择,
+				'minDate': (new Date().getFullYear()-150) + '-' + 1 + '-' + 1, //最小日期
+				'maxDate': (new Date().getFullYear()) + '-' + 12 + '-' + 31 //最大日期
+			});
+
+		</script>
+
+	</body>
+</html>

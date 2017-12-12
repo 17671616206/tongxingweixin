@@ -1,0 +1,219 @@
+body{
+    background-color: #F5F5F5;
+    font-family: "微软雅黑";
+}
+.overflow{
+    width: 100%;
+    overflow-x: hidden;
+}
+.header{
+    background-color: white;
+    color: #252525;
+    box-shadow: 0px 0px 15px #ccc;
+    font-weight: bold;
+}
+.fanhui>img{
+    width: 100%;
+    height: 100%;
+}
+/*导航部分*/
+
+.tbanner{
+    background-color: white;
+    color: #999999;
+}
+.cashimg{background-color: #D4D1D1;}
+.tname>p:nth-child(1){color: #333;font-weight: bold;}
+.tsection{background-color: white;color: #999999;position: relative;}
+.tinput{
+    width: 70%;
+    height: 100%;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+}
+.tremark>div:nth-child(2){color: #288CCA;}
+.tremark{
+    position: absolute;
+    bottom: 0px;
+    left: 2%;
+    width: 93%;
+    border-top: 1px solid #EEEEEE;
+}
+.zhuce{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #288CCA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*————————弹框部分开始————————————*/
+.bombbox{
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+    display: none;
+}
+.bomin{width: 100%;height: 100%;}
+.boxin{
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    font-weight: bold;
+}
+.tuichu{color: #333;}
+.queding{color: #999999;font-weight: normal;}
+.cancel{
+    color: #288cca;
+    width: 100%;
+}
+
+.boxfoot{
+    display: flex;
+    border-top: 1px solid #D2D3D5;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+@media all and (min-width: 769px){
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 20px;}
+    .searchimg{width: 22px;height: 22px;}
+    .tbanner{margin-top: 10px;padding: 10px 12px;}
+    .cashimg{width: 42px;height: 42px;margin-right: 17px;}
+    .iconfont,.tname>p:nth-child(1){font-size: 17px;}
+    .tname>p:nth-child(2){font-size: 14px;}
+    .zhuce{margin-top: 55px;}
+    .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+    .tsection{
+        margin-top: 15px;
+        font-size: 17px;
+        padding: 0px 13px;
+        height: 170px;
+    }
+    .tmoney{font-size: 36px;margin-top: 20px;}
+    .tremark{height: 45px;padding: 0px 5px;}
+    .tsecbox{padding: 15px 0px;}
+
+    .boxin{height: 185px;border-radius: 6px;padding-top: 1px;font-size: 18px;}
+    .tuichu{margin-top: 30px;}
+    .queding{margin-top: 15px;font-size: 16px;}
+    .cancel,.quebtn{height: 50px;line-height: 50px;}
+
+}
+@media all and (max-width: 768px){
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 20px;}
+    .searchimg{width: 22px;height: 22px;}
+    .tbanner{margin-top: 10px;padding: 10px 12px;}
+    .cashimg{width: 42px;height: 42px;margin-right: 17px;}
+    .iconfont,.tname>p:nth-child(1){font-size: 17px;}
+    .tname>p:nth-child(2){font-size: 14px;}
+    .zhuce{margin-top: 55px;}
+    .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+    .tsection{
+        margin-top: 15px;
+        font-size: 17px;
+        padding: 0px 13px;
+        height: 170px;
+    }
+    .tmoney{font-size: 36px;margin-top: 20px;}
+    .tremark{height: 45px;padding: 0px 5px;}
+    .tsecbox{padding: 15px 0px;}
+
+    .boxin{height: 185px;border-radius: 6px;padding-top: 1px;font-size: 18px;}
+    .tuichu{margin-top: 30px;}
+    .queding{margin-top: 15px;font-size: 16px;}
+    .cancel,.quebtn{height: 50px;line-height: 50px;}
+
+}
+@media all and (max-width: 414px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 20px;}
+    .searchimg{width: 22px;height: 22px;}
+    .tbanner{margin-top: 10px;padding: 10px 12px;}
+    .cashimg{width: 42px;height: 42px;margin-right: 17px;}
+    .iconfont,.tname>p:nth-child(1){font-size: 17px;}
+    .tname>p:nth-child(2){font-size: 14px;}
+    .zhuce{margin-top: 55px;}
+    .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+    .tsection{
+        margin-top: 15px;
+        font-size: 17px;
+        padding: 0px 13px;
+        height: 170px;
+    }
+    .tmoney{font-size: 36px;margin-top: 20px;}
+    .tremark{height: 45px;padding: 0px 5px;}
+    .tsecbox{padding: 15px 0px;}
+
+    .boxin{height: 185px;border-radius: 6px;padding-top: 1px;font-size: 18px;}
+    .tuichu{margin-top: 30px;}
+    .queding{margin-top: 15px;font-size: 16px;}
+    .cancel,.quebtn{height: 50px;line-height: 50px;}
+
+}
+@media all and (max-width: 380px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 19px;}
+    .searchimg{width: 20px;height: 20px;}
+    .tbanner{margin-top: 10px;padding: 10px 12px;}
+    .cashimg{width: 42px;height: 42px;margin-right: 17px;}
+    .iconfont,.tname>p:nth-child(1){font-size: 17px;}
+    .tname>p:nth-child(2){font-size: 14px;}
+    .zhuce{margin-top: 55px;}
+    .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+    .tsection{
+        margin-top: 15px;
+        font-size: 16px;
+        padding: 0px 13px;
+        height: 170px;
+    }
+    .tmoney{font-size: 36px;margin-top: 20px;}
+    .tremark{height: 45px;padding: 0px 5px;}
+    .tsecbox{padding: 15px 0px;}
+    .boxin{height: 165px;border-radius: 6px;padding-top: 1px;font-size: 16px;}
+    .tuichu{margin-top: 25px;}
+    .queding{margin-top: 15px;font-size: 15px;}
+    .cancel,.quebtn{height: 50px;line-height: 50px;}
+}
+@media all and (max-width: 320px) {
+    .header{height: 40px;padding: 0px 12px;}
+    .fanhui{width: 12px;height: 20px;}
+    .header_title{font-size: 17px;}
+    .searchimg{width: 15px;height: 15px;}
+    .tbanner{margin-top: 7px;padding: 7px 12px;}
+    .cashimg{width: 42px;height: 42px;margin-right: 12px;}
+    .iconfont,.tname>p:nth-child(1){font-size: 15px;}
+    .tname>p:nth-child(2){font-size: 12px;}
+    .zhuce{margin-top: 40px;}
+    .zhuce{width: 90%;height: 40px;font-size: 16px;border-radius: 5px;}
+    .tsection{
+        margin-top: 15px;
+        font-size: 15px;
+        padding: 0px 13px;
+        height: 160px;
+    }
+    .tmoney{font-size: 32px;margin-top: 15px;}
+    .tremark{height: 45px;padding: 0px 5px;}
+    .tsecbox{padding: 15px 0px;}
+    .boxin{height: 146px;border-radius: 6px;padding-top: 1px;font-size: 15px;}
+    .tuichu{margin-top: 30px;}
+    .queding{margin-top: 10px;font-size: 14px;}
+    .cancel,.quebtn{height: 45px;line-height: 45px;}
+}

@@ -1,0 +1,55 @@
+body{
+	background-color: #fff;
+	font-family: "微软雅黑";
+}
+/*————————————头部导航开始————————————*/
+.header{
+	border-bottom: 1px solid #fafafa;
+	color: #b1b1b1;
+}
+.header>li{height: 100%;display: flex;justify-content: center;align-items: center;}
+.weactive{color: #288CCA;}
+.content_one{color: #aaa7a7;text-indent: 2em;}
+.content{display: none;}
+/*————————————头部导航结束————————————*/
+
+@media all and (min-width: 769px){
+	.header{font-size: 17px;}
+	.header{height: 35px;padding: 10px 22px 0px;}
+	.weactive{border-bottom: 2px solid #288CCA;}
+	.content{font-size: 14px;}
+	.content{padding: 8px 15px;}
+	.content_one{margin-top: 14px;line-height: 23px;}
+}
+@media all and (max-width: 768px){
+	.header{font-size: 17px;}
+	.header{height: 35px;padding: 10px 22px 0px;}
+	.weactive{border-bottom: 2px solid #288CCA;}
+	.content{font-size: 14px;}
+	.content{padding: 8px 15px;}
+	.content_one{margin-top: 14px;line-height: 23px;}
+}
+@media all and (max-width: 414px) {
+	.header{font-size: 17px;}
+	.header{height: 35px;padding: 10px 22px 0px;}
+	.weactive{border-bottom: 2px solid #288CCA;}
+	.content{font-size: 14px;}
+	.content{padding: 8px 15px;}
+	.content_one{margin-top: 14px;line-height: 23px;}
+}
+@media all and (max-width: 380px) {
+	.header{font-size: 17px;}
+	.header{height: 35px;padding: 10px 22px 0px;}
+	.weactive{border-bottom: 2px solid #288CCA;}
+	.content{font-size: 14px;}
+	.content{padding: 7px 15px;}
+	.content_one{margin-top: 14px;line-height: 23px;}
+}
+@media all and (max-width: 320px) {
+	.header{font-size: 16px;}
+	.header{height: 30px;padding: 10px 20px 0px;}
+	.weactive{border-bottom: 2px solid #288CCA;}
+	.content{font-size: 14px;}
+	.content{padding: 7px 13px;}
+	.content_one{margin-top: 10px;line-height: 23px;}
+}

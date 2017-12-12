@@ -1,0 +1,39 @@
+*{margin: 0px;padding: 0px;}
+html {    
+    font-family: "微软雅黑";
+}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.flex_items{display: flex;align-items: center;}
+.flex_between{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex_column{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.flex_column2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.flex_column3{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.flex_end{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}

@@ -1,0 +1,89 @@
+
+    
+    <style>
+        .tabs{
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            width:100%;            
+            border-top: 1px solid #eee;
+            box-shadow: 0px 0px 15px #ccc;
+            background-color: white;
+            z-index: 10;
+        }
+        .tabsli{
+            float: left;
+            width: 20%;
+            height: 100%;
+            text-align: center;
+        }
+        @media all and (min-width: 769px){
+            .tabs{height: 55px;}
+            .tabsli{padding-top: 5px;}
+            .tabsli>a>p{font-size: 13px;font-weight: bold;margin-top: 0px;}
+            .tabsli>a>i{line-height: 30px;font-size: 20px;}
+            .home>i{margin-left: 6px;}
+        }
+        @media all and (max-width: 768px){
+            .tabs{height: 55px;}
+            .tabsli{padding-top: 5px;}
+            .tabsli>a>p{font-size: 13px;font-weight: bold;margin-top: 0px;}
+            .tabsli>a>i{line-height: 30px;font-size: 20px;}
+            .home>i{margin-left: 6px;}
+        }
+        @media all and (max-width: 414px) {
+            .tabs{height: 55px;}
+            .tabsli{padding-top: 5px;}
+            .tabsli>a>p{font-size: 13px;font-weight: bold;margin-top: 0px;}
+            .tabsli>a>i{line-height: 30px;font-size: 20px;}
+            .home>i{margin-left: 6px;}
+        }
+        @media all and (max-width: 380px) {
+            .tabs{height: 55px;}
+            .tabsli{padding-top: 5px;}
+            .tabsli>a>p{font-size: 13px;font-weight: bold;margin-top: 0px;}
+            .tabsli>a>i{line-height: 30px;font-size: 20px;}
+            .home>i{margin-left: 6px;}
+        }
+
+        @media all and (max-width: 320px) {
+            .tabs{height: 50px;}
+            .tabsli{padding-top: 5px;}
+            .tabsli>a>p{font-size: 11px;font-weight: bold;margin-top: 0px;}
+            .tabsli>a>i{line-height: 26px;font-size: 18px;}
+            .home>i{margin-left: 4px;}
+        }
+        
+    </style>
+    <ul class="tabs">
+        <li class="tabsli">
+            <a href="../home/home.html" class="home flex_column">
+                <i class="icon iconfont icon-shouyehui"></i>
+                <p>首页</p>
+            </a>
+        </li>
+        <li class="tabsli">
+            <a href="../home/fenlei.html" class="fenlei flex_column">
+                <i class="icon iconfont icon-leimupinleifenleileibie"></i>
+                <p>分类</p>
+            </a>
+        </li>
+        <li class="tabsli">
+            <a href="../home/search.html" class="search flex_column">
+                <i class="icon iconfont icon-sousuo"></i>
+                <p>搜索</p>
+            </a>
+        </li>
+        <li class="tabsli">
+            <a href="../home/coupon.html" class="youhui flex_column">
+                <i class="icon iconfont icon-liwu"></i>
+                <p>优惠券</p>
+            </a>
+        </li>
+        <li class="tabsli">
+            <a href="../home/mine.html" class="mine flex_column">
+                <i class="icon iconfont icon-user"></i>
+                <p>我的</p>
+            </a>
+        </li>
+    </ul>

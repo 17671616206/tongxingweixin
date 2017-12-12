@@ -1,0 +1,166 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+}
+.header{background-color: white;color: #252525;}
+/*导航部分*/
+.header_right,.header_title{font-weight: bold;}
+.headernav{
+	background-color: white;
+	width: 100%;
+	color: #7C7C7C;
+	position: relative;
+	border-top: 1px solid #EEEEEE;
+}
+.fanhui>img{
+	width: 100%;
+	height: 100%;
+}
+.headernav>li{width: 48%;margin: 1%;height: 90%;}
+.heactive{
+	width:48%;
+	background-color: #288CCA;
+	position: absolute;
+	left: 2%;
+	bottom: 0px;
+}
+.headerone{color: #288CCA;}
+
+/*——————优惠券部分————————*/
+.kong{width: 100%;display: none;}
+.kong>img{width: 100%;}
+.couponlist{
+	display: flex;
+}
+.cleft{
+	width: 30%;
+	text-align: center;
+	color: white;
+}
+.cright{
+	width: 70%;
+}
+.cright{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.cleft>p:nth-child(1)>span{font-weight: bold;}
+.cright>p:nth-child(1){color: #333;font-weight: bold;}
+.cright>p:last-child{color: #999;}
+.mancunpon>div:nth-child(1){color: #6a6a6a;}
+.lingqu{border-radius: 50px;}
+.cunnum{color: #288CCA;font-weight: normal;}
+
+.btnblue{color: #00A79D;border: 1px solid #00A79D;}
+.cblue{background-color: #00A79D;}
+
+.btnyellow{color: #FFCC00;border: 1px solid #FFCC00;}
+.cyellow{background-color: #FFCC00;}
+
+.btnred{color: #ED3237;border: 1px solid #ED3237;}
+.cred{background-color: #ED3237;}
+
+@media all and (min-width: 769px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.headernav{height: 45px;font-size: 16px;font-weight: bold;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 75px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 10px;}
+	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
+	.cleft>p:nth-child(1)>span{font-size: 19px;}
+	.cleft>p:nth-child(2){margin-top: 4px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 14px;padding: 10px 20px;}
+	.lingqu{padding: 2px 12px;}
+	.cunnum{margin-left: 20px;}
+}
+@media all and (max-width: 768px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.headernav{height: 45px;font-size: 16px;font-weight: bold;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 75px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 10px;}
+	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
+	.cleft>p:nth-child(1)>span{font-size: 19px;}
+	.cleft>p:nth-child(2){margin-top: 4px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 14px;padding: 10px 20px;}
+	.lingqu{padding: 2px 12px;}
+	.cunnum{margin-left: 20px;}
+	
+}
+@media all and (max-width: 414px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.headernav{height: 45px;font-size: 16px;font-weight: bold;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 75px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 10px;}
+	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
+	.cleft>p:nth-child(1)>span{font-size: 19px;}
+	.cleft>p:nth-child(2){margin-top: 4px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 14px;padding: 10px 20px;}
+	.lingqu{padding: 2px 12px;}
+	.cunnum{margin-left: 20px;}
+}
+@media all and (max-width: 380px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 19px;}
+	.header_right{font-size: 14px;}
+	.searchimg{width: 20px;height: 20px;}
+	.headernav{height: 45px;font-size: 16px;font-weight: bold;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 75px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 10px;}
+	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
+	.cleft>p:nth-child(1)>span{font-size: 19px;}
+	.cleft>p:nth-child(2){margin-top: 4px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 14px;padding: 10px 20px;}
+	.lingqu{padding: 2px 12px;}
+	.cunnum{margin-left: 20px;}
+}
+@media all and (max-width: 320px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 17px;}
+	.header_right{font-size: 14px;}
+	.searchimg{width: 15px;height: 15px;}
+	.headernav{height: 45px;font-size: 16px;font-weight: bold;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 60px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 7px;}
+	.cleft{padding: 15px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 14px;}
+	.cleft>p:nth-child(1)>span{font-size: 17px;}
+	.cleft>p:nth-child(2){margin-top: 3px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 10px;padding: 10px 20px;}
+	.lingqu{padding: 2px 8px;}
+	.cunnum{margin-left: 20px;}
+	
+}

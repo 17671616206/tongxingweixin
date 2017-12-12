@@ -1,0 +1,232 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+}
+.youhui{color: #288cca;}
+.home,.fenlei,.mine,.search{color: #959595;}
+.home_foot{color: #999;text-align: center;}
+
+/*—————————————头部导航部分结束———————————————*/
+.header{
+	background-color: white;
+	width: 100%;
+	color: #7C7C7C;
+	position: relative;
+}
+.header>li{width: 32%;margin: 1%;height: 90%;}
+.heactive{
+	color: #288cca;
+	border-bottom: 3px solid #288cca;
+}
+/*—————————————头部导航部分结束———————————————*/
+
+/*—————————————平台优惠券部分结束———————————————*/
+.kong{width: 100%;}
+.kong>img{width: 100%;}
+.coubox{
+	display: none;
+}
+.couponlist{
+	display: flex;
+}
+.cleft{
+	width: 30%;
+	text-align: center;
+	color: white;
+}
+.cright{
+	width: 70%;
+}
+.cright{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.cleft>p:nth-child(1)>span{font-weight: bold;}
+.cright>p:nth-child(1){color: #333;font-weight: bold;}
+.cright>p:last-child{color: #999;}
+.mancunpon>div:nth-child(1){color: #6a6a6a;}
+.lingqu{border-radius: 50px;}
+.cunnum{color: #288CCA;font-weight: normal;}
+
+.btngreen{color: #00A79D;border: 1px solid #00A79D;}
+.cgreen{background-color: #00A79D;}
+
+.btnyellow{color: #FFCC00;border: 1px solid #FFCC00;}
+.cyellow{background-color: #FFCC00;}
+
+.btnred{color: #ED3237;border: 1px solid #ED3237;}
+.cred{background-color: #ED3237;}
+
+.btnblue{color: #288cca;border: 1px solid #288cca;}
+.cblue{background-color: #288cca;}
+/*—————————————平台优惠券部分结束———————————————*/
+
+/*———————————————圆盘部分开始———————————————*/
+.turnplate_box{
+	width: 300px;
+	height: 300px;
+	margin: 30px auto;
+	position: relative; 
+}
+.zhuan{
+	width: 300px;
+	height: 300px;
+	background: url(../images/yuan1.png) no-repeat;
+	background-size: cover;
+}
+.turnplate_box canvas{
+	position: absolute;
+}
+#myCanvas{
+	background-color: white;
+	border-radius: 100%;
+}
+#myCanvas01,#myCanvas03{
+	left: 50px;
+	top: 50px;
+	z-index: 30;
+}
+#myCanvas02{
+	left: 75px;
+	top: 75px;
+	z-index: 20;
+}
+#myCanvas{
+    -o-transform:  transform 6s;
+	-ms-transform:  transform 6s;
+	-moz-transform:  transform 6s;		
+	-webkit-transform:  transform 6s;
+	transition: transform 6s;
+	-o-transform-origin:  50% 50%;
+	-ms-transform-origin:  50% 50%;
+	-moz-transform-origin:  50% 50%;		
+	-webkit-transform-origin:  50% 50%;
+	transform-origin: 50% 50%;
+}
+.turnplatw_btn{
+	width: 60px;
+	height: 60px;
+	left: 120px;
+	top: 120px;
+	border-radius: 100%;
+	position: absolute;
+	cursor: pointer;
+	border: none;
+	background: transparent;
+	outline: none;
+	z-index: 40;
+}
+/*———————————————————圆盘部分结束———————————————————*/
+
+/*———————————————————备注部分开始———————————————————*/
+.remarks_yuan{background-color: #288CCA;border-radius: 50%;display: inline-block;}
+.remarks{color: #939191;}
+/*———————————————————备注部分结束———————————————————*/
+@media all and (min-width: 769px){
+	.header{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.remarks{padding-left: 15px;padding-right: 15px;}
+	.remarks>p{margin-bottom: 10px;font-size: 14px;}
+	.remarks_yuan{width: 10px;height: 10px;margin-right: 12px;}
+	.home_foot{font-size: 14px;margin-top: 15px;margin-bottom: 0px;}
+	.heactive{height: 3px;}
+	/*————-——优惠券部分————————*/
+	.kong{margin-top: 75px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 10px;}
+	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
+	.cleft>p:nth-child(1)>span{font-size: 19px;}
+	.cleft>p:nth-child(2){margin-top: 4px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 14px;padding: 10px 15px;}
+	.lingqu{padding: 2px 12px;}
+	.cunnum{margin-left: 20px;}
+}
+@media all and (max-width: 768px){
+	.header{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.remarks{padding-left: 15px;padding-right: 15px;}
+	.remarks>p{margin-bottom: 10px;font-size: 14px;}
+	.remarks_yuan{width: 10px;height: 10px;margin-right: 12px;}
+	.home_foot{font-size: 14px;margin-top: 15px;margin-bottom: 0px;}
+	.heactive{height: 3px;}
+	/*————-——优惠券部分————————*/
+	.kong{margin-top: 75px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 10px;}
+	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
+	.cleft>p:nth-child(1)>span{font-size: 19px;}
+	.cleft>p:nth-child(2){margin-top: 4px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 14px;padding: 10px 15px;}
+	.lingqu{padding: 2px 12px;}
+	.cunnum{margin-left: 20px;}
+}
+@media all and (max-width: 414px) {
+	.header{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.remarks{padding-left: 15px;padding-right: 15px;}
+	.remarks>p{margin-bottom: 10px;font-size: 14px;}
+	.remarks_yuan{width: 10px;height: 10px;margin-right: 12px;}
+	.home_foot{font-size: 14px;margin-top: 15px;margin-bottom: 0px;}
+	.heactive{height: 3px;}
+	/*————-——优惠券部分————————*/
+	.kong{margin-top: 75px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 10px;}
+	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
+	.cleft>p:nth-child(1)>span{font-size: 19px;}
+	.cleft>p:nth-child(2){margin-top: 4px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 14px;padding: 10px 15px;}
+	.lingqu{padding: 2px 12px;}
+	.cunnum{margin-left: 20px;}
+
+}
+@media all and (max-width: 380px) {
+	.header{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.remarks{padding-left: 15px;padding-right: 15px;}
+	.remarks>p{margin-bottom: 7px;font-size: 14px;}
+	.remarks_yuan{width: 10px;height: 10px;margin-right: 12px;}
+	.home_foot{font-size: 14px;margin-top: 15px;margin-bottom: 0px;}
+	.heactive{height: 3px;}
+	/*————-——优惠券部分————————*/
+	.kong{margin-top: 75px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 10px;}
+	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
+	.cleft>p:nth-child(1)>span{font-size: 19px;}
+	.cleft>p:nth-child(2){margin-top: 4px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 14px;padding: 10px 15px;}
+	.lingqu{padding: 2px 12px;}
+	.cunnum{margin-left: 20px;}
+}
+@media all and (max-width: 320px) {
+	.header{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.remarks{padding-left: 15px;padding-right: 15px;}
+	.remarks>p{margin-bottom: 5px;font-size: 13px;}
+	.remarks_yuan{width: 8px;height: 8px;margin-right: 10px;}
+	.home_foot{font-size: 12px;margin-top: 10px;margin-bottom: 0px;}
+	.heactive{height: 3px;}
+	/*————-——优惠券部分————————*/
+	.kong{margin-top: 60px;}
+	.coupon{padding: 1px 10px;}
+	.couponlist{margin-top: 7px;}
+	.cleft{padding: 15px 0px;border-right: 3px dotted white;}
+	.cright>p:nth-child(1),.cleft>p{font-size: 14px;}
+	.cleft>p:nth-child(1)>span{font-size: 17px;}
+	.cleft>p:nth-child(2){margin-top: 3px;}
+	.cleft,.cright{border-radius: 10px;}
+	.cright{font-size: 10px;padding: 10px 10px;}
+	.lingqu{padding: 2px 8px;}
+	.cunnum{margin-left: 20px;}
+}

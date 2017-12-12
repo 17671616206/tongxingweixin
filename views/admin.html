@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<title>同兴>个人信息</title>
+		<link rel="stylesheet" type="text/css" href="../public/css/birthday.css" />
+		<link rel="stylesheet" type="text/css" href="../public/css/LCalendar.css" />
+		<link rel="stylesheet" href="../font/demo.css">
+    	<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/fontsize.css"/>
+	    <link rel="stylesheet" href="../css/admin.css"/>
+	    <script src="../js/jquery-3.2.1.min.js"></script>
+		<script src="../public/js/LCalendar.js"></script>
+	    <script src="../js/admin.js"></script>
+
+	</head>
+	<body>
+		<div class="flex_between header">
+			<a class="fanhui" href="javascript:history.back(-1)">
+				<img src="../images/fanhui@2x.png" alt="" />
+			</a>
+			<div class="header_title">个人信息</div>
+			<div class="searchimg"></div>
+		</div>
+
+		<div class="setop admin flex_between">
+			<div>头像</div>
+			<div class="flex_items">
+				<div class="touxiang">
+					<img id="pic" src="">
+					<input id="upload" name="file" accept="image/*" type="file" style="display: none"/>
+				</div>
+				<span class="setadd icon iconfont icon-arrowright"></span>
+			</div>
+		</div>
+
+		<div class="setting flex_between">
+			<div>昵称</div>
+			<p class="setright">
+				<span>王呵呵</span>
+				<span class="setadd icon iconfont icon-arrowright"></span>
+			</p>
+		</div>
+		<a href="set_sex.html">
+			<div class="setting flex_between">
+				<div>性别</div>
+				<div class="setright flex_items">
+					<span>男</span>
+					<span class="setadd icon iconfont icon-arrowright"></span>
+				</div>
+			</div>
+		</a>
+		<div class="setting flex_between">
+			<div>生日</div>
+			<p class="setright">
+				<input type="text" name="start_date" id="start_date" placeholder="选择开始日期" readonly/>
+				<span class="setadd icon iconfont icon-arrowright"></span>
+			</p>
+		</div>
+
+		<div class="setting flex_between">
+			<div>手机</div>
+			<p class="setright">17611116823</p>
+		</div>
+
+
+		<script type="text/javascript">
+
+			var calendar = new LCalendar();
+			calendar.init({
+				'trigger': '#start_date', //标签id
+				'type': 'date', //date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择,
+				'minDate': (new Date().getFullYear()-150) + '-' + 1 + '-' + 1, //最小日期
+				'maxDate': (new Date().getFullYear()) + '-' + 12 + '-' + 31 //最大日期
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,179 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+}
+.header{
+	background-color: white;
+	color: #252525;
+	box-shadow: 0px 0px 15px #ccc;
+}
+/*导航部分*/
+.zhuce,.header_right,.header_title{font-weight: bold;}
+.headernav{
+	background-color: white;
+	width: 100%;
+	color: #7C7C7C;
+	position: relative;
+	margin-top: 2px;
+}
+.headernav>li{width: 20%;margin: 1%;height: 90%;}
+.heactive{
+	width:20%;
+	color: #288CCA;
+	border-bottom: 3px solid #288CCA;
+}
+.kong{width: 100%;}
+
+.zhuce{
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #288CCA;
+	margin-left: auto;
+	margin-right: auto;
+}
+.invoice_box{
+	background-color: white;
+	color: #333;
+}
+.invoice_rit{
+	color: #999;
+}
+.invoice_text{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	width: 100%;
+}
+.fanhui>img{
+	width: 100%;
+	height: 100%;
+}
+
+
+@media all and (min-width: 769px){
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.headernav{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 75px;}
+	.kong>img{width: 100%;}
+	.zhuce{margin-top: 30px;}
+	.zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	.invoice_box{
+		font-size: 14px;
+		padding: 10px 15px;
+		margin-top: 10px;
+	}
+	.invoice_img{
+		width:107px;
+		height: 40px;
+		margin-right: 15px;
+	}
+	.invoice_text{line-height: 23px;}
+	.invoice_content{width: 68%;}
+}
+@media all and (max-width: 768px){
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.headernav{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 75px;}
+	.kong>img{width: 100%;}
+	.zhuce{margin-top: 30px;}
+	.zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	.invoice_box{
+		font-size: 14px;
+		padding: 10px 15px;
+		margin-top: 10px;
+	}
+	.invoice_img{
+		width:107px;
+		height: 40px;
+		margin-right: 15px;
+	}
+	.invoice_text{line-height: 23px;}
+	.invoice_content{width: 68%;}
+}
+@media all and (max-width: 414px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.headernav{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 75px;}
+	.kong>img{width: 100%;}
+	.zhuce{margin-top: 30px;}
+	.zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	.invoice_box{
+		font-size: 14px;
+		padding: 10px 15px;
+		margin-top: 10px;
+	}
+	.invoice_img{
+		width:107px;
+		height: 40px;
+		margin-right: 15px;
+	}
+	.invoice_text{line-height: 23px;}
+	.invoice_content{width: 68%;}
+}
+@media all and (max-width: 380px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 19px;}
+	.header_right{font-size: 14px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 20px;height: 20px;}
+	.headernav{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 75px;}
+	.kong>img{width: 100%;}
+	.zhuce{margin-top: 30px;}
+	.zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
+	.invoice_box{
+		font-size: 14px;
+		padding: 10px 15px;
+		margin-top: 10px;
+	}
+	.invoice_img{
+		width:93px;
+		height: 35px;
+		margin-right: 15px;
+	}
+	.invoice_text{line-height: 23px;}
+	.invoice_content{width: 66%;}
+}
+@media all and (max-width: 320px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 17px;}
+	.header_right{font-size: 14px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 15px;height: 15px;}
+	.headernav{height: 45px;font-size: 16px;}
+	.heactive{height: 3px;}
+	.kong{margin-top: 60px;}
+	.kong>img{width: 100%;}
+	.zhuce{margin-top: 35px;}
+	.zhuce{width: 90%;height: 40px;font-size: 16px;border-radius: 5px;}
+	.invoice_box{
+		font-size: 12px;
+		padding: 10px 15px;
+		margin-top: 10px;
+	}
+	.invoice_img{
+		width:93px;
+		height: 35px;
+		margin-right: 15px;
+	}
+	.invoice_text{line-height: 21px;}
+	.invoice_content{width: 66%;}
+}

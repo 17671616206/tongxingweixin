@@ -1,0 +1,85 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+	width: 100%;
+	overflow: hidden;
+}
+.header{
+	background-color: white;
+	color: #252525;
+	box-shadow: 0px 0px 15px #ccc;
+}
+.header_right,.header_title{font-weight: bold;}
+
+.fanhui>img{width: 100%;height: 100%;}
+/*————————内容部分————————————*/
+.user_xieyi{
+	color: #333;
+}
+.usertitle{
+	font-weight: bold;
+	text-align: center;
+}
+.usercontent{
+	text-indent: 2em;
+	line-height: 25px;
+	margin-top: 10px;
+}
+
+
+
+@media all and (min-width: 769px){
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 20px;}
+	.queding,.header_right{font-size: 14px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.usercontent{font-size: 15px;}
+	.user_xieyi{padding: 20px;}
+	.usertitle{font-size: 19px;}
+	
+
+}
+@media all and (max-width: 768px){
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 20px;}
+	.queding,.header_right{font-size: 14px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.usercontent{font-size: 15px;}
+	.user_xieyi{padding: 20px;}
+	.usertitle{font-size: 19px;}
+	
+}
+@media all and (max-width: 414px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 20px;}
+	.queding,.header_right{font-size: 14px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 22px;height: 22px;}
+	.usercontent{font-size: 15px;}
+	.user_xieyi{padding: 20px;}
+	.usertitle{font-size: 19px;}
+	
+}
+@media all and (max-width: 380px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 19px;}
+	.queding,.header_right{font-size: 14px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 20px;height: 20px;}
+	.usercontent{font-size: 15px;}
+	.user_xieyi{padding: 20px;}
+	.usertitle{font-size: 19px;}
+
+}
+@media all and (max-width: 320px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.header_title{font-size: 17px;}
+	.queding,.header_right{font-size: 14px;}
+	.fanhui{width: 12px;height: 20px;}
+	.searchimg{width: 15px;height: 15px;}
+	.usercontent{font-size: 13px;}
+	.user_xieyi{padding: 15px;}
+	.usertitle{font-size: 17px;}
+}

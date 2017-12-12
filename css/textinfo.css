@@ -1,0 +1,84 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+}
+.header{
+	background-color: white;
+	color: #252525;
+	box-shadow: 0px 0px 15px #ccc;
+}
+.fanhui>img{
+	width: 100%;
+	height: 100%;
+}
+.header_right,.header_title{font-weight: bold;}
+.content{color: #333;}
+.cotime{color: #8b8b8b;}
+.cotitle{font-weight: bold;}
+.cotext{color: #333;text-indent: 2em;font-weight: bold;}
+@media all and (min-width: 769px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.content{padding: 15px 15px 15px 20px;}
+	.cotitle{font-size: 20px;}
+	.cotime{font-size: 12px;}
+	.cotime>span{margin-right: 20px;}
+	.cotext{font-size: 16px;line-height: 25px;}
+	.cotext,.cotime{margin-top: 15px;}
+}
+@media all and (max-width: 768px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.content{padding: 15px 15px 15px 20px;}
+	.cotitle{font-size: 20px;}
+	.cotime{font-size: 12px;}
+	.cotime>span{margin-right: 20px;}
+	.cotext{font-size: 16px;line-height: 25px;}
+	.cotext,.cotime{margin-top: 15px;}
+}
+@media all and (max-width: 414px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.content{padding: 15px 15px 15px 20px;}
+	.cotitle{font-size: 20px;}
+	.cotime{font-size: 12px;}
+	.cotime>span{margin-right: 20px;}
+	.cotext{font-size: 16px;line-height: 25px;}
+	.cotext,.cotime{margin-top: 15px;}
+}
+@media all and (max-width: 380px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 19px;}
+	.header_right{font-size: 14px;}
+	.searchimg{width: 20px;height: 20px;}
+	.content{padding: 15px 15px 15px 20px;}
+	.cotitle{font-size: 20px;}
+	.cotime{font-size: 12px;}
+	.cotime>span{margin-right: 20px;}
+	.cotext{font-size: 16px;line-height: 25px;}
+	.cotext,.cotime{margin-top: 15px;}
+}
+@media all and (max-width: 320px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 17px;}
+	.header_right{font-size: 14px;}
+	.searchimg{width: 15px;height: 15px;}
+	.content{padding: 15px 15px 15px 20px;}
+	.cotitle{font-size: 20px;}
+	.cotime{font-size: 12px;}
+	.cotime>span{margin-right: 20px;}
+	.cotext{font-size: 14px;line-height: 25px;}
+	.cotext,.cotime{margin-top: 15px;}
+	
+}

@@ -1,0 +1,295 @@
+html,body{
+	background-color: #fff;
+	font-family: "微软雅黑";
+	position: relative;
+	height: 100%;
+}
+.header{
+	background-color: white;
+	color: #252525;
+	box-shadow: 0px 0px 15px #ccc;
+}
+.header_right,.header_title{font-weight: bold;}
+/*—————————————————广告部分样式开始—————————————————*/
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #C6C6C6;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #C6C6C6;
+}
+
+input:-ms-input-placeholder{
+	color: #C6C6C6;
+}
+
+input::-webkit-input-placeholder{
+	color: #C6C6C6;
+}
+
+.swiper-pagination{bottom: 10%;}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    /*-webkit-justify-content: center;
+    justify-content: center;*/
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.loginback1{
+	background: url(../images/hezuo.png) no-repeat;
+	background-size: cover;
+}
+.loginback3{
+	z-index: 4;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;	
+}
+.loginliji{
+	position: absolute;
+	width: 80%;
+	background-color: #288cca;
+	color: white;
+	font-weight: bold;
+	left: 10%;
+	bottom: 17%;
+	border: none;
+	outline: none;
+	z-index: 5;
+}
+.guo{
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	top: 2%;
+	right: 2%;
+	z-index: 6;
+}
+.fanhui>img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide>img{width: 100%;}
+.adver1,.adver{color: #288CCA;font-weight: bold;text-align: center;}
+.adver2{font-weight: bold;color: #424242;text-align: center}
+.adver3{text-align: center;color: #383838;}
+.tiyantext2{font-weight: bold;}
+.tiyancolor{color: #288CCA;}
+/*—————————————————广告部分样式结束—————————————————*/
+/*————————————————————————————*/
+.login_tou{background-color: #EAEAEA;border-radius: 50%;overflow: hidden;}
+.login_tou>img{width: 100%;height: 100%;}
+.login_box{width: 80%;}
+.name_inp{
+	border-top:none;
+	border-right: none;
+	border-left: none;
+	outline: none;
+	border-radius: 0px;
+}
+.login_pass{
+	background-color: #EFEFEF;
+	color: #a7a7a7;
+	border-radius: 50px;
+}
+.login_btn{
+	color: #fff;
+	background-color: #288cca;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+}
+.login_text{
+	color: #929292;
+	width: 100%;
+}
+.login_xian{
+	display: inline-block;
+	border-bottom: 1px dashed #C5C5C5;
+	height: 2px;
+	width: 20%;
+}
+.login_xian2{margin: 0px 3%;}
+.login_ul>li>img{width: 100%;height: 100%;}
+
+
+.info{
+	margin-top: 15px;
+	color:red;
+}
+
+@media all and (min-width: 769px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.login{padding-top: 45px;}
+	.login_tou{width: 120px;height: 120px;}
+	.login_box{margin-top: 85px;}
+	.name_inp{width: 100%;height: 40px;margin-bottom: 5px;font-size: 18px;border-bottom: 2px solid #EBEBEB;}
+	.login_pass{width: 100px;height: 35px;font-size: 17px;}
+	.login_zhang{margin-top: 15px;}
+	.login_btn{margin-top: 32px;width: 100%;height: 46px;font-size: 18px;}
+	.login_text{font-size: 13px;text-align: center;margin-top: 70px;}
+	.login_ul{margin-top: 20px;padding: 0px 15px;}
+	.login_ul>li{width: 45px;height: 45px;}
+	.loginliji{border-radius: 4px;font-size: 22px;height: 48px;}
+	.guo{width: 55px;height: 28px;border-radius: 4px;}
+	.adver3,.guo{font-size: 14px;}
+	.swiper-slide{padding-top: 1px;}
+	.adver1,.adver{font-size: 26px;}
+	.adver{margin-top: 20px;}
+	.adver1{margin-top: 5px;}
+	.swiper-slide>img{margin-top: 20px;width: 85%;}
+	.adver2{margin-top: 10px;font-size: 20px;}
+	.adver3{margin-top: 8px;}
+	.tiyantext1{width:20px;font-size: 17px;}
+	.tiyantext2{width: 35px;font-size: 33px;margin-left: 15px;}
+	.tiyantext{margin-top: 130px;}
+}
+@media all and (max-width: 768px){
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.login{padding-top: 45px;}
+	.login_tou{width: 120px;height: 120px;}
+	.login_box{margin-top: 85px;}
+	.name_inp{width: 100%;height: 40px;margin-bottom: 5px;font-size: 18px;border-bottom: 2px solid #EBEBEB;}
+	.login_pass{width: 100px;height: 35px;font-size: 17px;}
+	.login_zhang{margin-top: 15px;}
+	.login_btn{margin-top: 32px;width: 100%;height: 46px;font-size: 18px;}
+	.login_text{font-size: 13px;text-align: center;margin-top: 70px;}
+	.login_ul{margin-top: 20px;padding: 0px 15px;}
+	.login_ul>li{width: 45px;height: 45px;}
+	.loginliji{border-radius: 4px;font-size: 22px;height: 48px;}
+	.guo{width: 55px;height: 28px;border-radius: 4px;}
+	.adver3,.guo{font-size: 14px;}
+	.swiper-slide{padding-top: 1px;}
+	.adver1,.adver{font-size: 26px;}
+	.adver{margin-top: 20px;}
+	.adver1{margin-top: 5px;}
+	.swiper-slide>img{margin-top: 20px;width: 85%;}
+	.adver2{margin-top: 10px;font-size: 20px;}
+	.adver3{margin-top: 8px;}
+	.tiyantext1{width:20px;font-size: 17px;}
+	.tiyantext2{width: 35px;font-size: 33px;margin-left: 15px;}
+	.tiyantext{margin-top: 130px;}
+}
+@media all and (max-width: 414px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 20px;}
+	.header_right{font-size: 15px;}
+	.searchimg{width: 22px;height: 22px;}
+	.login{padding-top: 45px;}
+	.login_tou{width: 120px;height: 120px;}
+	.login_box{margin-top: 85px;}
+	.name_inp{width: 100%;height: 40px;margin-bottom: 5px;font-size: 18px;border-bottom: 2px solid #EBEBEB;}
+	.login_pass{width: 100px;height: 35px;font-size: 17px;}
+	.login_zhang{margin-top: 15px;}
+	.login_btn{margin-top: 32px;width: 100%;height: 46px;font-size: 18px;}
+	.login_text{font-size: 13px;text-align: center;margin-top: 70px;}
+	.login_ul{margin-top: 20px;padding: 0px 15px;}
+	.login_ul>li{width: 45px;height: 45px;}
+	.loginliji{border-radius: 4px;font-size: 22px;height: 48px;}
+	.guo{width: 55px;height: 28px;border-radius: 4px;}
+	.adver3,.guo{font-size: 14px;}
+	.swiper-slide{padding-top: 1px;}
+	.adver1,.adver{font-size: 26px;}
+	.adver{margin-top: 20px;}
+	.adver1{margin-top: 5px;}
+	.swiper-slide>img{margin-top: 20px;width: 100%;}
+	.adver2{margin-top: 10px;font-size: 20px;}
+	.adver3{margin-top: 8px;}
+	.tiyantext1{width:20px;font-size: 17px;}
+	.tiyantext2{width: 35px;font-size: 33px;margin-left: 15px;}
+	.tiyantext{margin-top: 130px;}
+}
+@media all and (max-width: 380px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 19px;}
+	.header_right{font-size: 14px;}
+	.searchimg{width: 20px;height: 20px;}
+	.login{padding-top: 35px;}
+	.login_tou{width: 110px;height: 110px;}
+	.login_box{margin-top: 67px;}
+	.name_inp{width: 100%;height: 35px;margin-bottom: 5px;font-size: 15px;border-bottom: 2px solid #EBEBEB;}
+	.login_pass{width: 90px;height: 27px;font-size: 15px;}
+	.login_zhang{margin-top: 15px;}
+	.login_btn{margin-top: 32px;width: 100%;height: 46px;font-size: 18px;}
+	.login_text{font-size: 11px;text-align: center;margin-top: 70px;}
+	.login_ul{margin-top: 20px;padding: 0px 10px;}
+	.login_ul>li{width: 40px;height: 40px;}
+	.loginliji{border-radius: 4px;font-size: 22px;height: 43px;}
+	.guo{width: 52px;height: 25px;border-radius: 4px;}
+	.adver3,.guo{font-size: 14px;}
+	.swiper-slide{padding-top: 1px;}
+	.adver1,.adver{font-size: 26px;}
+	.adver{margin-top: 20px;}
+	.swiper-slide>img{width: 100%;}
+	.swiper-slide>img{margin-top: 10px;}
+	.adver1{margin-top: 5px;}
+	.adver2{margin-top: 10px;font-size: 20px;}
+	.adver3{margin-top: 8px;}
+	.tiyantext1{width:20px;font-size: 15px;}
+	.tiyantext2{width: 35px;font-size: 30px;margin-left: 13px;}
+	.tiyantext{margin-top: 130px;}
+}
+@media all and (max-width: 320px) {
+	.header{height: 40px;padding: 0px 12px;}
+	.fanhui{width: 12px;height: 20px;}
+	.header_title{font-size: 17px;}
+	.header_right{font-size: 14px;}
+	.searchimg{width: 15px;height: 15px;}
+	.login{padding-top: 35px;}
+	.login_tou{width: 100px;height: 100px;}
+	.login_box{margin-top: 40px;}
+	.name_inp{width: 100%;height: 35px;margin-bottom: 5px;font-size: 13px;border-bottom: 2px solid #EBEBEB;}
+	.login_pass{width: 90px;height: 27px;font-size: 13px;}
+	.login_zhang{margin-top: 15px;}
+	.login_btn{margin-top: 27px;width: 100%;height: 40px;font-size: 16px;}
+	.login_text{font-size: 11px;text-align: center;margin-top: 50px;}
+	.login_ul{margin-top: 15px;padding: 0px 10px;}
+	.login_ul>li{width: 35px;height: 35px;}
+	.loginliji{border-radius: 4px;font-size: 20px;height: 40px;}
+	.guo{width: 52px;height: 25px;border-radius: 4px;}
+	.adver3,.guo{font-size: 14px;}
+	.swiper-slide{padding-top: 1px;}
+	.adver1,.adver{font-size: 22px;}
+	.adver{margin-top: 20px;}
+	.swiper-slide>img{width: 100%;}
+	.swiper-slide>img{margin-top: 10px;}
+	.adver1{margin-top: 5px;}
+	.adver2{margin-top: 5px;font-size: 15px;}
+	.adver3{margin-top: 8px;}
+	.tiyantext1{width:20px;font-size: 13px;}
+	.tiyantext2{width: 32px;font-size: 27px;margin-left: 13px;}
+	.tiyantext{margin-top: 115px;}
+	
+}
