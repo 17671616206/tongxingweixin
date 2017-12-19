@@ -2,7 +2,63 @@ $(function(){
     $("#footer").load("../public/tabs.html");
 });
 
+var user_id=localStorage.getItem("user_id");
 var id=localStorage.getItem("id");
-if(id){
-    window.location.href='';
+if(user_id==undefined){
+    //window.location.href='login.html?href='+window.location.href+'';
 }
+if(user_id){
+        $.ajax({
+            url:"http://dz.tx178178.com/index.php?m=api&c=User&a=userCenterHomeOne",
+            type:"post",
+            dataType:"json",
+            data:{
+                user_id:user_id
+            },
+            success:function(data){
+                console.log(data);
+                if(data.userimg){
+                    $(".header_img").attr("src",data.userimg);
+                }
+                if(data.username){
+                    $(".header_name>.name").text(data.username);
+                }else{
+                    $(".header_name>.name").text(id);
+                }
+                //$(".header_name>.name").text(data.username);
+                if(data.vip){
+                if(data.vip==0){
+                    $(".header_name>.header_vip").text("普通会员");
+                }else{
+                    $(".header_name>.header_vip").text(""+data.vip+"级会员");
+                    $(".header_com").css("display","none");
+                }}else{
+                    $(".header_name>.header_vip").text("普通会员");
+                }
+            }
+        })
+}
+
+$("body").ready(function(){
+    $("#vip").on("click",function(){
+        window.location.href='../views/aboutVIP.html';
+    });
+    var user_id=localStorage.getItem("user_id");
+    //收藏中心数量
+    $.ajax({
+        url:"http://dz.tx178178.com/index.php?m=api&c=User&a=collecGoods",
+        type:"get",
+        dataType:"json",
+        data:{
+            id:user_id
+        },
+        success:function(data){
+            if(data!=="0"){
+                $("#collectnum").text(data.length);
+            }else{
+                console.log(2);
+                $("#collectnum").text("0");
+            }
+        }
+    })
+});

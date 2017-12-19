@@ -3,6 +3,40 @@ $(function(){
 	$(".header>li").click(function(){
 		$(this).addClass('heactive').siblings().removeClass("heactive");
 		$(".coubox").eq($(this).index()).show().siblings("div").hide();
+
+
+		var user_id=localStorage.getItem("user_id");
+		if($(this).index()==0){
+			type=0;
+		}else{
+			type=1;
+		}
+		var page=1;
+		$.ajax({
+			url: "http://dz.tx178178.com/index.php?m=api&c=Coupon&a=couponList",
+			type: "post",
+			dataType: "json",
+			data: {
+				id:user_id,
+				type:type,
+				page:page,
+				num:12
+			},
+			success: function (data) {
+				console.log(type);
+				console.log(data);
+			}
+		});
+
+
+
+
+
+
+
+
+
+
 	});
     
 //—————————————————————————————圆盘部分开始—————————————————————————————————
@@ -192,4 +226,26 @@ $(function(){
 		}
 	}
     //—————————————————————————————圆盘部分结束—————————————————————————————————
-})
+
+	//———————————————优惠券接口部分结束——————————————
+	//$.ajax({
+	//	url: "http://dz.tx178178.com/index.php?m=api&c=Coupon&a=CouponObtain&type=1&pages=1",
+	//	type: "post",
+	//	async: false,
+	//	dataType: "text",
+	//	data: {phone:phone},
+	//	success: function (data) {
+	//		var data = eval('(' + data + ')');
+	//		console.log(data);
+	//	}
+	//});
+
+
+
+
+
+
+
+
+
+});

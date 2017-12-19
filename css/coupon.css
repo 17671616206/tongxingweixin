@@ -33,6 +33,12 @@ body{
 	width: 30%;
 	text-align: center;
 	color: white;
+	overflow: hidden;
+}
+.cleft>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
 }
 .cright{
 	width: 70%;
@@ -50,17 +56,9 @@ body{
 .lingqu{border-radius: 50px;}
 .cunnum{color: #288CCA;font-weight: normal;}
 
-.btngreen{color: #00A79D;border: 1px solid #00A79D;}
-.cgreen{background-color: #00A79D;}
+.btngreen{color: #288cca;border: 1px solid #288cca;}
+.cgreen{background-color: #288cca;}
 
-.btnyellow{color: #FFCC00;border: 1px solid #FFCC00;}
-.cyellow{background-color: #FFCC00;}
-
-.btnred{color: #ED3237;border: 1px solid #ED3237;}
-.cred{background-color: #ED3237;}
-
-.btnblue{color: #288cca;border: 1px solid #288cca;}
-.cblue{background-color: #288cca;}
 /*—————————————平台优惠券部分结束———————————————*/
 
 /*———————————————圆盘部分开始———————————————*/
@@ -94,11 +92,6 @@ body{
 	z-index: 20;
 }
 #myCanvas{
-    -o-transform:  transform 6s;
-	-ms-transform:  transform 6s;
-	-moz-transform:  transform 6s;		
-	-webkit-transform:  transform 6s;
-	transition: transform 6s;
 	-o-transform-origin:  50% 50%;
 	-ms-transform-origin:  50% 50%;
 	-moz-transform-origin:  50% 50%;		
@@ -136,14 +129,12 @@ body{
 	.kong{margin-top: 75px;}
 	.coupon{padding: 1px 10px;}
 	.couponlist{margin-top: 10px;}
-	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
 	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
 	.cleft>p:nth-child(1)>span{font-size: 19px;}
 	.cleft>p:nth-child(2){margin-top: 4px;}
 	.cleft,.cright{border-radius: 10px;}
 	.cright{font-size: 14px;padding: 10px 15px;}
 	.lingqu{padding: 2px 12px;}
-	.cunnum{margin-left: 20px;}
 }
 @media all and (max-width: 768px){
 	.header{height: 45px;font-size: 16px;}
@@ -157,14 +148,12 @@ body{
 	.kong{margin-top: 75px;}
 	.coupon{padding: 1px 10px;}
 	.couponlist{margin-top: 10px;}
-	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
 	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
 	.cleft>p:nth-child(1)>span{font-size: 19px;}
 	.cleft>p:nth-child(2){margin-top: 4px;}
 	.cleft,.cright{border-radius: 10px;}
 	.cright{font-size: 14px;padding: 10px 15px;}
 	.lingqu{padding: 2px 12px;}
-	.cunnum{margin-left: 20px;}
 }
 @media all and (max-width: 414px) {
 	.header{height: 45px;font-size: 16px;}
@@ -178,14 +167,12 @@ body{
 	.kong{margin-top: 75px;}
 	.coupon{padding: 1px 10px;}
 	.couponlist{margin-top: 10px;}
-	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
 	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
 	.cleft>p:nth-child(1)>span{font-size: 19px;}
 	.cleft>p:nth-child(2){margin-top: 4px;}
 	.cleft,.cright{border-radius: 10px;}
 	.cright{font-size: 14px;padding: 10px 15px;}
 	.lingqu{padding: 2px 12px;}
-	.cunnum{margin-left: 20px;}
 
 }
 @media all and (max-width: 380px) {
@@ -200,14 +187,12 @@ body{
 	.kong{margin-top: 75px;}
 	.coupon{padding: 1px 10px;}
 	.couponlist{margin-top: 10px;}
-	.cleft{padding: 20px 0px;border-right: 3px dotted white;}
 	.cright>p:nth-child(1),.cleft>p{font-size: 16px;}
 	.cleft>p:nth-child(1)>span{font-size: 19px;}
 	.cleft>p:nth-child(2){margin-top: 4px;}
 	.cleft,.cright{border-radius: 10px;}
 	.cright{font-size: 14px;padding: 10px 15px;}
 	.lingqu{padding: 2px 12px;}
-	.cunnum{margin-left: 20px;}
 }
 @media all and (max-width: 320px) {
 	.header{height: 45px;font-size: 16px;}
@@ -221,12 +206,10 @@ body{
 	.kong{margin-top: 60px;}
 	.coupon{padding: 1px 10px;}
 	.couponlist{margin-top: 7px;}
-	.cleft{padding: 15px 0px;border-right: 3px dotted white;}
 	.cright>p:nth-child(1),.cleft>p{font-size: 14px;}
 	.cleft>p:nth-child(1)>span{font-size: 17px;}
 	.cleft>p:nth-child(2){margin-top: 3px;}
 	.cleft,.cright{border-radius: 10px;}
 	.cright{font-size: 10px;padding: 10px 10px;}
 	.lingqu{padding: 2px 8px;}
-	.cunnum{margin-left: 20px;}
 }

@@ -44,7 +44,7 @@ body{
     .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
     .codebox{padding: 60px 12px 50px;}
     .codenum{font-size: 40px;}
-    .mycode{font-size: 18px;margin-top: 20px;}
+    .mycode{font-size: 18px;margin-bottom: 20px;}
 
 }
 @media all and (max-width: 768px){
@@ -56,7 +56,7 @@ body{
     .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
     .codebox{padding: 60px 12px 50px;}
     .codenum{font-size: 40px;}
-    .mycode{font-size: 18px;margin-top: 20px;}
+    .mycode{font-size: 18px;margin-bottom: 20px;}
 
 }
 @media all and (max-width: 414px) {
@@ -68,7 +68,7 @@ body{
     .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
     .codebox{padding: 60px 12px 50px;}
     .codenum{font-size: 40px;}
-    .mycode{font-size: 18px;margin-top: 20px;}
+    .mycode{font-size: 18px;margin-bottom: 20px;}
 
 }
 @media all and (max-width: 380px) {
@@ -80,7 +80,7 @@ body{
     .zhuce{width: 90%;height: 45px;font-size: 18px;border-radius: 5px;}
     .codebox{padding: 60px 12px 50px;}
     .codenum{font-size: 40px;}
-    .mycode{font-size: 18px;margin-top: 20px;}
+    .mycode{font-size: 18px;margin-bottom: 20px;}
 
 
 }
@@ -93,5 +93,5 @@ body{
     .zhuce{width: 90%;height: 40px;font-size: 16px;border-radius: 5px;}
     .codebox{padding: 50px 8px 40px;}
     .codenum{font-size: 38px;}
-    .mycode{font-size: 16px;margin-top: 20px;}
+    .mycode{font-size: 16px;margin-bottom: 20px;}
 }

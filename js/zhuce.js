@@ -1,4 +1,12 @@
 $(function(){
+    function GetQueryString(names)
+    {
+        var reg = new RegExp("(^|&)"+ names +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  unescape(r[2]); return null;
+    }
+
+    //var user_id=localStorage.getItem("user_id");
 
     $("#code").click(function(){
         var phone = $(".sellinp").val();
@@ -38,7 +46,14 @@ $(function(){
             })
         }
 
-    })
+    });
+    //判断是否是扫码注册
+    var code=localStorage.getItem("user_id");
+    if(code){
+        $(".sellinva").val(code);
+        //console.log(code);
+    }
+
 
     $("#zhuce").click(function(){
         var phone = $(".sellinp").val();
@@ -63,9 +78,25 @@ $(function(){
                     //var data = eval('(' + data + ')');
                     console.log(data);
                     if(data.state==0){
-                        $(".tishi>span").show();
+                        $(".tishi>span").css('display','block');
                     }else if(data.state==1){
-                        $(".tishi>span").hide();
+                        $(".tishi>span").css('display','none');
+                        //模拟登陆
+                        $.ajax({
+                                url:"http://dz.tx178178.com/index.php?m=api&c=User&a=login",
+                                type:"post",
+                                dataType:"json",
+                                data:{
+                                    username:phone,
+                                    password:passwd
+                                },
+                                success:function(data){
+                                    var salt_value=data.salt_value;
+                                    localStorage.setItem("salt_value",salt_value);
+                                    window.location.href='../home/home.html'
+                                }
+                            });
+                        window.location.href='../home/home.html'
                     }
 
                 }

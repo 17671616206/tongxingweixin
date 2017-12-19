@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/js/address_select.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/home.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/login.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/logininfo.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/mine.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/mybalance.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/mycoupon.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/search.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/shoucang.js" charset="UTF-8" />
   </component>
 </project>

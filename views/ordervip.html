@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<title>同兴>订单</title>
+		<link rel="stylesheet" href="../css/fontsize.css"/>
+	    <link rel="stylesheet" href="../css/ordervip.css"/>
+	    <script src="../js/jquery-3.2.1.min.js"></script>
+	    <script src="../js/ordervip.js"></script>
+	</head>
+	<body>
+		<div class="flex_between header">
+			<a href="javascript:history.back(-1)">
+				<img class="fanhui" src="../images/fanhui@2x.png" alt="" />
+			</a>
+			<div class="header_title">订单信息</div>
+			<div class="searchimg"></div>
+		</div>
+		<div class="order_one">订单信息</div>
+		<div class="order_address ordername">
+			<div>购买账号：</div>
+			<div>账号名</div>
+		</div>
+		<div class="order_address">
+			<div>购买项目：</div>
+			<div>VIP会员</div>
+		</div>
+		<div class="order_one">联系方式</div>
+		<div class="order_address orderphone">
+			<div>手机号码：</div>
+			<div>13333333333</div>
+		</div>
+		<div class="order_one">VIP会员套餐</div>
+		<div class="order_address">
+			<div style="width: 90%">一级VIP会员（一年）：</div>
+			<div class="flex_between">
+				<span></span>
+				<span style="color:red">￥100000.00</span>
+			</div>
+		</div>
+		</div>
+		
+		<div class="order_one">支付方式</div>
+		<div>
+			<div class="order_two flex_between card">
+				<p>账户余额</p>
+				<div class="duigoubox">
+					<img src="../images/gouxuan.png" alt="" style="display: block;"/>
+				</div>
+			</div>
+			<div class="order_two flex_between card">
+				<p>快捷支付</p>
+				<div class="duigoubox">
+					<img src="../images/gouxuan.png" alt=""/>
+				</div>
+			</div>
+			<div class="order_four flex_between card">
+				<div class="flex_items">
+					<img class="weixin" src="../images/weixin.png" alt="" />
+					<div>微信支付</div>
+				</div>
+				<div class="duigoubox">
+					<img src="../images/gouxuan.png" alt="" />
+				</div>
+			</div>
+			<div class="order_four flex_between card">
+				<div class="flex_items">
+					<img class="weixin" src="../images/zhifubao.png" alt="" />
+					<div>支付宝支付</div>
+				</div>
+				<div class="duigoubox">
+					<img src="../images/gouxuan.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="remark">
+			<p><span class="yuan"></span>VIP会员自支付完成之时起5分钟内生效</p>
+		</div>
+		
+		<!--—————————弹窗部分———————————-->
+		<div class="orderbomb youhui">
+			<ul class="orbombox">
+				<li class="flex_items">不使用优惠券</li>
+				<li class="flex_between">
+					<span>公司注册</span>
+					<span>×150.00</span>
+				</li>
+				<li class="flex_between">
+					<span>公司注册</span>
+					<span>×150.00</span>
+				</li>
+			</ul>
+		</div>
+		
+		<!--—————————付款成功弹窗部分———————————-->
+		<div class="fukuan">
+			<div class="fukuan2">
+				<p>付款成功</p>
+				<p class="fukuanfont">恭喜你已成功购买此服务</p>
+				<div class="fukuan_confirm">确定</div>
+			</div>
+		</div>
+		
+		<!--底部固定-->
+		<div class="footer flex_items">
+			<div class="footleft">实付金额：<span class="font2">¥998.00</span></div>
+			<button class="footright">确认支付</button>
+		</div>
+	</body>
+</html>

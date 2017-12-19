@@ -4,18 +4,57 @@
 $(function(){
 
     //点击收藏爱心
-    var off = false;
+    //var off = false;
+    //$(".shoucang").click(function(){
+    //    if(off == false){
+    //        $(".shoucang").removeClass("icon-aixin1");
+    //        $(".shoucang").addClass("icon-aixin2");
+    //        off = true;
+    //    }else{
+    //        $(".shoucang").removeClass("icon-aixin2");
+    //        $(".shoucang").addClass("icon-aixin1");
+    //        off = false;
+    //    }
+    //})
+
     $(".shoucang").click(function(){
-        if(off == false){
-            $(".shoucang").removeClass("icon-aixin1");
-            $(".shoucang").addClass("icon-aixin2");
-            off = true;
+        var user_id=localStorage.getItem("user_id");
+        if(user_id){
+            if($(".shoucang").hasClass("icon-aixin1")){
+                //console.log(1);
+                num=1;
+            }else{
+                //console.log(2);
+                num=0;
+            }
         }else{
-            $(".shoucang").removeClass("icon-aixin2");
-            $(".shoucang").addClass("icon-aixin1");
-            off = false;
+            window.location.href='login.html?href='+window.location.href+'';
         }
-    })
+    });
+    function add(){
+        $.ajax({
+            url:"http://dz.tx178178.com/index.php?m=api&c=GoodsInfo1&a=goodsCollection",
+            type:"post",
+            dataType:"json",
+            data:{
+                user:user_id,
+                goods:goods,
+                type:0,
+                num:num
+            },
+            success:function(data){
+                if(data.state==1){
+                    if(num==1){
+                        $(".shoucang").removeClass("icon-aixin1");
+                        $(".shoucang").addClass("icon-aixin2");
+                    }else{
+                        $(".shoucang").removeClass("icon-aixin2");
+                        $(".shoucang").addClass("icon-aixin1");
+                    }
+                }
+            }
+        })
+    }
 
     //————————————点击组合套餐————————————
     var group = false;
